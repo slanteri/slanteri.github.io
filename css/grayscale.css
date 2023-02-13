@@ -1044,6 +1044,72 @@ p.publicationRef {
 }
 
 /***************************/
+/***** Research stuff *****/
+/***************************/
+
+#research {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #677789;
+}
+
+#research h1, h2 {
+    color: #000000;
+}
+
+#research .project-wrap a {
+    background: #677789;
+    display: block;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#research .project-wrap a img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#research .project-wrap a span, #research .project-wrap a b {
+    -webkit-transition: all 0s;
+    transition: all 0s;
+}
+
+#research .project-wrap a span.top {
+    padding: 15px 0px 10px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    # text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0px 5px;
+
+}
+
+#research .project-wrap a span.bottom {
+    padding: 0 10px 15px;
+    display: block;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+#research .project-wrap a:focus {
+    text-decoration: none !important;
+    background: #009FFD;
+    box-shadow: 0px 0px 7px 1px #010101;
+}
+
+#research .project-wrap a:hover {
+    text-decoration: none !important;
+    background: #009FFD;
+    box-shadow: 0px 0px 7px 1px #010101;
+}
+
+/***************************/
 /***** Activities stuff *****/
 /***************************/
 
