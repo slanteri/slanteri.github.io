@@ -1184,14 +1184,14 @@ p.publicationRef {
     padding-bottom: 50px;
     text-align: center;
     background: #888899;
-}
+!py}
 
 #software h1, h2 {
     color: #ffffff;
 }
 
 #software .project-wrap a {
-    background: #ffffff;
+    background: #677789;
     display: block;
     border-radius: 10px;
     color: #000000;
