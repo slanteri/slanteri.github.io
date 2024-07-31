@@ -106,7 +106,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-toggle {
-    color: white;
+    color: blue;
     background-color: rgba(103,119,137,.7);
     font-size: 12px;
 }
@@ -220,7 +220,7 @@ a:focus {
 
 @media (max-width: 768px) {
     .intro {
-        height: 10%;
+        height: 50%;
         -webkit-background-size: 170%;
         -moz-background-size: 170%;
         background-size: 170%;
@@ -1183,7 +1183,7 @@ p.publicationRef {
     padding-bottom: 50px;
     text-align: center;
     background: #888899;
-!py}
+}
 
 #software h1, h2 {
     color: #ffffff;
