@@ -106,7 +106,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-toggle {
-    color: blue;
+    color: white;
     background-color: rgba(103,119,137,.7);
     font-size: 12px;
 }
@@ -201,6 +201,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    height: 10%;
 }
 
 .intro .intro-body .brand-heading {
