@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css"> 
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Stéphane Lanteri's website</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#pubs">Publications</a>
+      <a href="#phds">PhD students</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- <br /> <img src="img/S-Lanteri_n+.jpg" width="200" class="center"></img> -->
+    <h2>Stéphane Lanteri</h2>
+    <p>Welcome to my website!</p>
+    <div class="container">
+      <div class="image"><img src="img/logo_atlantis.png" width="150" class="center"></img></div>
+      <div class="image"><img src="img/logo_inria.png"    width="150" class="center"></img></div>
+      <div class="image"><img src="img/logo_cnrs.png"      width="75" class="center"></img></div>
+      <div class="image"><img src="img/logo_uca.png"      width="300" class="center"></img></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <p align="justify">
+      I  am  a  senior  research  scientist at  the  Inria  center  of
+      Université Côte d’Azur.  Since February 2020, I am the scientiﬁc
+      head   of    the   <a   href="http://www-sop.inria.fr/atlantis/"
+      target=_blank>Atlantis</a>  project-team.   I  also act  as  the
+      scientific                     coordinator                    of
+      the              <a             href="http://diogenes.inria.fr/"
+      target=_blank>DIOGENeS</a>  software development  project, which
+      is  dedicated  to   computational  nanophotonics.   My  research
+      interests are concerned with  different aspects of the numerical
+      modeling   of  physical   problems   related  to   computational
+      electromagnetics  and  computational  nanophotonics.   I  am  in
+      particular  working on  the design  of high  order discontinuous
+      Galerkin  type  approximation  methods  and  parallel  numerical
+      algorithms for  solving differential  models of  time-domain and
+      frequency-domain electromagnetic  wave propagation  with complex
+      media with a focus of nanoscale light-matter interactions.  I am
+      also  studying  reduced-order   modeling  strategies  for  these
+      models, with a focus  on data-driven non-intrusive reduced basis
+      methods.
+      </p>
+    </section>
+
+    <section id="research">
+      <details>
+        <summary>Scientific ML</summary>
+        <p align="justify">
+	In the context of the <a href="https://numpex.org/exama-methods-and-algorithms-for-exascale/"target=_blank>Exa-MA</a>
+	project of the <a href="https://numpex.org/" target=_blank>NumPEx</a> research program, we collaborate with researchers
+	from the <a href="https://concace.gitlabpages.inria.fr/#outline-container-home" target=_blank>Concace</a> and 
+	<a href="https://team.inria.fr/makutu/" target=_blank>Makutu</a> project-teams (Inria center of Université de Bordeaux)
+	and Macaron project-team (Inria center of Université de Lorraine) on the design of Machine Learning (ML)/Deep Learning (DL) methods
+	for scientific computing. Specific research topics are concerned with surrogate models based on physics-driven Deep Learning and
+	PDE operator learning with Neural Operators.<br /><br />
+	In the context of the PhD project of Alexandre Pugin, which is supported by the French Defence Innovation Agency, we study
+	physics-based neural networks for surrogate modeling of electromagnetic wave propagation.<br /><br />
+	In the context of the PhD of Arthur Clini de Souza
+	(Cifre PhD project with <a href="https://solnil.com/" target="_blank"><font color=blue>Solnil</font></a>) we study
+	data-driven DL models for the inverse design of photonic devices are studied. This is also the reserach topic at the heart
+	DNN4Photonics Inria associate team with the group of
+	Hugo Hernandez Figueroa at <a href="https://lemac.fee.unicamp.br/" target="_blank"><font color=blue>LEMAC</font></a>, Unicamp, Brazil
+	(from January 2024 to December 2026).
+	</p>
+      </details>
+      <details>
+        <summary>High order DG methods</summary>
+        <p align="justify">
+	In the context of the PhD project of Cédric Legrand, which is supported by the French Defence Innovation Agency, we study
+	the interaction of an electromagnetic field with active (gain) media, in particular for applications in laser physics.
+	We develop Discontinuous Galerkin Time-Domain (DGTD) methods for the numerical resolution of the system of Maxwell equations
+	coupled to rate equations that model the dynamics of energy level populations in laser gain media.
+	</p>
+      </details>
+      <details>
+        <summary>Reduced-order modeling</summary>
+        <p align="justify"> 
+	With  Liang  Li  from   the  School  of  Mathematical  Sciences, University of Electronic Science  and Technology of  China in
+	Chengdu, and Kun Li from the School of Mathematics, Southwestern University of Finance and Economics in Chengdu, we develop 
+	data-driven reduced-order models of time-domain electromagnetic wave propagation on the basis of the
+	Proper Orthogonal Decomposition (POD) method. We have in particular proposed several POD-based approaches starting from
+	snapshots extracted from a high order DGTD method for the parameterized time-domain Maxwell equations: the
+	<a href="https://doi.org/10.1007/s10915-021-01467-2" target="_blank">POD-CSI</a>,
+	<a href="https://doi.org/10.1016/j.cam.2023.115271" target="_blank">POD-CSI-CAE</a> and
+	<a href="https://doi.org/10.1016/j.jcp.2023.112354" target="_blank">POD-DMD-RBF</a> methods.<br /><br />
+	The POD-CSI and POD-CSI-CAE methods are currently extended to deal with 3D nanoscale light-matter interaction problems
+	in the framework of a novel component of the <a href="https://diogenes.inria.fr/" target="_blank">DIOGENeS</a> software suite
+	dedicated to fast surrogate models. 
+	</p>
+      </details>
+      <details>
+        <summary>Inverse design in photonics</summary>
+        <p align="justify">
+	  With Mickael Binois and Régis Duvigneau from the <a href="https://team.inria.fr/acumes/" target="_blank">Acumes</a>
+	  project-team (Inria center of Université Côte d’Azur) we develop inverse design methodologies to unveil non-intuitive
+          nanostructures or material  nanostructuring for harvesting orshaping the interaction of light with matter on the nanoscale.
+	  In our works, we adopt one of the most advanced optimization techniques based on a statistical learning-based
+	  approach, which is known as Efficient Global Optimization (EGO) and belongs to teh class of Bayesian  optimization methods.
+	  The EGO algorithm is a global optimization algorithm that substitutes  the complex and costly iterative electromagnetic
+	  evaluation process with a simpler and cheaper metamodel.<br /><br />
+	  We have proposed a multiobjective inverse design strategy that has been first exploited for the
+	  optimization of a <a href="https://doi.org/10.1021/acsphotonics.1c00753" target="_blank">RGB metalens</a>.
+	  Planar optics is one important ground of experiment in our activities on inverse design, with a focus
+	  on <a href="https://doi.org/10.1038/s41598-024-51898-8" target="_blank">nonlocal metasurfaces</a> and
+	  <a href="https://doi.org/10.1002/lpor.202200880" target="_blank">tunable metasurfaces</a>.<br /><br />
+	  We are now working on integrating <a href="https://doi.org/10.1364/OE.430409" target="_blank">fabrication uncertainties</a> in
+	  the numerical optimization process in order to obtain robust designs. Another research direction that we consider
+	  is muldifidelity modeling to improve the computational efficiency of the numerical optimization of large-sacle photonic devices. 
+	</p>
+      </details>
+    </section>
+
+    <section id="pubs">
+      <div class="container">
+	<div><a class="button" href="./pubs_after_2020.html" target=_blank>Publications from 2020</a></div><hr />
+        <div><a class="button" href="./pubs_before_2020.html" target=_blank>Publications before 2020</a></div>
+      </div>
+      <div class="container">
+	<div><a class="button" href="./pubs_rom.html" target=_blank>Publications on reduced-order modeling</a></div><hr />
+      </div>
+      <div class="container">
+	<div><a class="button" href="./pubs_dg.html" target=_blank>Publications on discontinuous Galerkin methods</a></div><hr />
+      </div>
+      <div class="container">
+	<div><a class="button" href="./pubs_ddm.html" target=_blank>Publications on domain decomposition methods</a></div><hr />
+      </div>
+    </section>    
+
+    <section id="phds">
+      <div class="container">
+	<div><a class="button" href="./phds.html" target=_blank>PhD students (defended)</a></div><hr />
+  	<aside>
+	  <p align="justify">
+	  Roman Gelly (starting on 10/2024), co-supervised with Mahmoud Elsawy (Atlantis@Inria) –
+	  Advanced numerical modeling for time-varying metasurface modulation.<br /><br />
+	  Alexandre Pugin (starting on 10/2024), co-supervised with Stéphane Descombes (Atlantis@Inria) –
+	  Physics-based neural networks for surrogate modeling of electromagnetic wave propagation.<br /><br />
+	  Arthur Clini de Souza (since 12/2022), co-supervised with Mahmoud Elsawy (Atlantis@Inria),
+	  Marco Abbarchi (<a href="https://solnil.com/" target="_blank"><font color=blue>Solnil</font></a>) and  
+	  Hugo Hernandez Figueroa (<a href="https://lemac.fee.unicamp.br/" target="_blank"><font color=blue>LEMAC</font></a>, Unicamp, Brazil) -
+	  Deep neural networks for the design of large-scale photonic devices for active beam steering.<br /><br />
+	  Enzo Isnard (since 11/2022), co-supervised with Mahmoud Elsawy (Atlantis@Inria) and  Sébastien Héron (Thales Research & Technology) –
+	  Modeling and optimization of optical metasurfaces integrated in imaging systems.<br /><br />
+          Cédric Legrand (since 11/2021), co-supervised with Stéphane Descombes (Atlantis@Inria) –
+          Numerical modeling of gain materials with DGTD methods.
+	  </p>
+	</aside>
+      </div>
+    </section>    
+
+    <section id="projects">
+      <details>
+        <summary>AEROCOM (Ultra-flat and low-cost antennas)</summary>
+        <p align="justify">
+	The  development of  agile,  ultra-flat  and low-cost  Ka-band
+	antennas is a major challenge to enable Internet accessibility
+	in mobility,  in particular  on board of  public land  and air
+	transport   (trains,   buses,   airliners),  and   to   secure
+	communication servers (for combat aircraft, military vehicles,
+	etc.).  A  possible  antenna   architecture  to  address  this
+	challenge is composed  of a radiating source  and a deflection
+	system consisting  of two deflectors. The  compactness and the
+	moderate  cost of  the  de-pointing system  could be  obtained
+	thanks to the subwavelength  structuring technique, and to the
+	shaping by additive manufacturing.  Indeed, the sub-wavelength
+	patterning  technique has  recently shown  the possibility  to
+	realize  antenna components  much thinner  than a  homogeneous
+	bulk material, with equivalent  or even better radio frequency
+	performance. The general objective  of our contribution to the
+	AEROCOM  project, which  is  supported by  the French  Defence
+	Innovation Agency (from January 2023 to September 2025), is to
+	develop  an advanced  numerical  methodology  for the  virtual
+	design  of  subwavelength   structured  deflectors  and  their
+	cascading  to achieve  an  ultra-flat  Ka-band antenna  system
+	consisting of two such metadeflectors.
+	This project is coordinated by 
+	<a href="https://nanoe.com/en/" target="_blank"><font color=blue>Nanoe</font></a> and also involves
+	<a href="https://www.thalesgroup.com/en/global/innovation/research-and-technology" target="_blank"><font color=blue>
+	Thales Research & Technology</font></a>.
+	</p>
+      </details>
+      <details>
+        <summary>SWEET (Sub-WavelEngth Electro-optic sysTems)</summary>
+        <p align="justify">
+	Beam steering is a key enabling photonic technology that would
+	improve the performance of light detection and ranging modules
+	(LiDAR). A typical LiDAR component  consists of a light source
+	for illumination, a light modulating  device to scan the scene
+	and finally  a fast  detection system  to recover  the optical
+	information  received from  the  scene.  The  LiDAR sector  is
+	currently ongoing  important research and  development efforts
+	to  enable real-time  sensing of  the distance  of fast-moving
+	objects,  with applications  in robotics,  autonomous vehicles
+	and future  augmented reality devices.  Dynamic  beam steering
+	with  competitive performances  requires the  deflection of  a
+	light beam along  any arbitrary direction to  spatially scan a
+	large  angular field-of-view  (FoV) with  high speed  and high
+	efficiency.   In the  SWEET project,  which is  funded by  the
+	French National Research Agency (from October 2022 to December
+	2026),  several drawbacks  of current  LiDAR technologies  are
+	addressed  by  proposing  innovative ultrafast  beam  steering
+	systems,    their    combinations   and    integration    into
+	demonstrator. The overarching goal  is to realize an ultrafast
+	2D beam  steering system using innovative  transparent tunable
+	metasurfaces using  liquid crystal and  III-nitride materials.
+	In  this context,  we work  on the  design active  metasurface
+	components for dynamic beam steering.
+	This project is coordinated by the <a href="https://www.laas.fr/en/" target="_blank"><font color=blue>LAAS</font></a>
+	CNRS laboratory and also involves the <a href="http://www.crhea.cnrs.fr/en/" target="_blank"><font color=blue>CRHEA</font></a>
+	CNRS laboratory and  <a href="https://www.napa-technologies.com/" target="_blank"><font color=blue>NAPA Technologies</font></a>.
+	</p>
+      </details>
+      <details>
+        <summary>SWAG-P (Sensing With A Gap-Plasmon)</summary>
+        <p align="justify">
+	Among all  the techniques  used to design  biosensors, optical
+	techniques  are booming,  thanks  to  numerous innovations  in
+	nanophotonics and plasmonics. Using lithography to fabricate a
+	sensor usually makes  it too expensive.  To  be deliverable, a
+	device has to be stable for  months. It is important to use as
+	little  materials  as possible,  because  sensors  have to  be
+	disposed of  after use. Miniaturization is  attractive in this
+	perspective,  especially since  it  is  associated with  lower
+	detection  limits.  Plasmonic  resonators have  an  edge  here
+	because  of  their   large  interaction  cross-section:  their
+	response is  thus easier  to measure. The  goal of  the SWAG-P
+	project,  which  is funded  by  the  French National  Research
+	Agency (from October 2023 to December 2027), is to explore the
+	potential of a  new class of plasmonic  resonators with unique
+	properties,  called  Gap-Plasmon  Resonators (GPRs),  for  the
+	detection   of  biological   molecules   of  interest.   These
+	resonators are  optical patch antennas that  can be fabricated
+	simply  by  depositing  metal  nanocubes  of  a  few  tens  of
+	nanometers  on a  dielectric film,  deposited on  a very  thin
+	layer  of  functionalizable  gold.    In  SWAG-P,  we  develop
+	reduced-order modeling  techniques for the  numerical modeling
+	of GPR-based biosensors.
+	This project is coordinated by the <a href="http://www.institutpascal.uca.fr/index.php/en/" target="_blank"><font color=blue>
+	Institut Pascal</font></a> CNRS laboratory and also involves the <a href="https://www.im2np.fr/en" target="_blank"><font color=blue>
+	IM2NP</font></a> CNRS laboratory, the <a href="https://www.cinam.univ-mrs.fr/cinam/en/" target="_blank"><font color=blue>      
+	CINaM</font></a> CNRS laboratory and the <a href="https://icr.univ-amu.fr/?ML=EN" target="_blank"><font color=blue>ICR</font></a>
+	CNRS laboratory.      
+	</p>
+      </details>
+      <details>
+        <summary>DNN4Photonics (DNNs for the design of photonic devices)</summary>
+        <p align="justify">
+	This  project   aims  at  studying  and   developing  modeling
+	approaches  based on  Deep  Neural Networks  for modeling  and
+	shaping the interactions of optical waves with matter when the
+	latter is  structured at  the subwavelength  scale. Electronic
+	devices that  exploit these  interactions in their  design are
+	called photonic devices and the science that studies nanoscale
+	light-matter  interactions is  referred as  nanophotonics.  We
+	investigate  data-driven Deep  Learning methodologies  for two
+	main objectives: (1) devising  fast and reliable surrogates of
+	light   wave    propagation   in    the   general    case   of
+	three-dimensional  spatial  domains  with  complex  scattering
+	objects  and,  (2)  devising   inverse  design  strategies  of
+	photonic devices with unprecedented properties.  DNN4Photonics
+	is funded by the Associate Team program of Inria (from Januray
+	2024 to December 2026).
+	The partner institution is the <a href="https://lemac.fee.unicamp.br/" target="_blank"><font color=blue>LEMAC</font></a>
+	(Applied and Computational Electromagnetics Lab) at University of Campinas (Unicamp), São Paulo, Brazil.
+	The PI at LEMAC is Hugo Hernandez Figueroa. 
+	</p>
+      </details>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+	Inria <br />
+        Atlantis project-team <br />
+	2004 Route des Lucioles, BP 93 <br />
+	06902 Sophia Antipolis Cedex, France <br />
+	Stephane.Lanteri@inria.fr
+      </div>
+    </section>    
+
+  </main>
+
+  <footer>
+    <p>Stéphane Lanteri's website</p>
+  </footer>
+</body>
+
+</html>
+
+
